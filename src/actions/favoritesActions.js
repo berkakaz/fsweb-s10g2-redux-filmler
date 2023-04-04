@@ -12,4 +12,4 @@ export const addFavorite = (movie) => {
 
 export const removeFavorite = (id) => {
   return ({ type: REMOVE_FAVORITE, payload: id });
-}
+};
